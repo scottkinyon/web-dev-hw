@@ -1,0 +1,7 @@
+The web is an interconnected system of content. It is connected by hypertext and refers to the architecture of how content is linked to other content.
+
+The internet is an interconnected system of participants and networks. It is linked together through wires, servers, and physicial architecture that allows for the storage and transmission of data.  Data is broken apart and distributed across networks according to specific protocols.
+
+A directory is essentially a virtual container for files within a specific heirarchy.  Often called a "folder" a directory, which may contain additional subdirectories stores files.  The heirarchy of directories gives a specific path for each file and directory so that they can be linked or referenced easily and precisely.
+
+VCS allows a user or multiple users to rack changes in a file or project.  This can be useful for tracking when, why, and by whom changes were made as well as offering the ability to revert to prior versions in the event of an error.
