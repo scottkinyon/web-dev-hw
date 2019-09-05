@@ -1,1 +1,12 @@
 My Responses:
+
+1. Data travels on the internet in packets.  This enables large files to be broken down into smaller parts and to take multiple routes to arrive at its destination.  This means files can avoid congested or disrupted pathways.  The Transmission Control Protocol ensures all packets are received and reassembled correctly.
+
+2. An Internet Protocol (IP) address is assigned to each device connecting to the internet and serves to identify its location to other devices.  Domain Name System (DNS) servers catalogue domain names and their corresponding IP addresses.  A user on a client computer may wish to navigate to the google website and will type in the url for google.com.  The client computer then sends a request to a DNS server to find the IP address that corresponds to google.com.  Once the IP address is provided, the client computer is able to request content from the google.com server.
+
+3. A cookie is a small dataset containing identifying credentials.  This allows a user to more quickly access frequently visited sites by retaining that users login information.
+
+4. All urls contain three basic parts:
+   1. The protocol (such as http or https)
+   2. The domain (such as google.com, which is the website)
+   3. The path (which provides the location of a specific page or file within the domain)
