@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Kettlehouse">
+    <meta name="author" content="Scott Kinyon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      table, th, td {
+        padding: 3px;
+      }
+    </style>
+    <title>Contact Kettlehouse</title>
+  </head>
+  <body>
+    <h1>Contact Kettlehouse</h1>
+    <br />
+    <address>
+      Kettlehouse Brewing Co.<br />
+      602 Myrtle Street<br />
+      Missoula, MT 59801<br />
+      <a href="mailto:contact@kettlehouse.com">contact@kettlehouse.com</a><br />
+    </address>
+    <br/>
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">Open</th>
+        <th scope="col">Close</th>
+      </tr>
+      <tr>
+        <th scope="row">Myrtle Street Taphouse</th>
+        <td>Noon</td>
+        <td>10:00pm</td>
+      </tr>
+      <tr>
+        <th scope="row">Northside Taphouse</th>
+        <td>Noon</td>
+        <td>9:00pm</td>
+      </tr>
+      <tr>
+        <th scope="row">Bonner Brewery</th>
+        <td>Noon</td>
+        <td>9:00pm</td>
+      </tr>
+    </table>
+    <br />
+    <form action="http://www.kettlehouse.com/survey.php" method="post" id="survey-form" class="basic-forms">
+      <label>
+        Favorite Brew:
+      <br />
+      <input type="radio" name="favorite" value="coldsmoke" /> Cold Smoke
+      <!-- Do I use both a value= and id=, in what order? -->
+      <br />
+      <input type="radio" name="favorite" value="eddyout" /> Eddy Out
+      <br />
+      <input type="radio" name="favorite" value="shadyipa" /> Shady IPA
+      <br />
+      <input type="radio" name="favorite" value="bongwater" /> Bongwater
+      <br />
+      <input type="radio" name="favorite" value="other" /> Other
+      <br />
+      </label>
+      <br />
+      <label>
+        New Brew <em>(what new brew would you like us to make next?)</em>:
+      <br />
+      <input type="text" name="newbrew" id="survery-text-newbrew" size="20">
+      </label>
+      <br />
+      <label>
+        Additional Comments:
+      <br />
+        <textarea name="comments" id="survey-textarea-comments" cols="20" rows="5">Tell us what you love about Kettlehouse or what we can do better...</textarea>
+      </label>
+      <br />
+      <input type="image" src="./images/submit-button.png" alt="submit button image" widht="80" height="20">
+    </form>
+  </body>
+</html>
