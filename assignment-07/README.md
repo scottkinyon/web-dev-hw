@@ -1,0 +1,8 @@
+# Assignment 7
+## Scott Kinyon
+
+Divs, classes, ids, and spans can all help to organize and control the layout of content on an html page. Div elements establish blocks of content by grouping other elements together. In their simplest use, divs start content on a new line, but they are often styled even further using CSS. Class attributes allow for classification of similar types of content for easier styling using CSS. One class may apply to many different elements. Similarly, ids are used to label elements for styling with CSS, but unlike classes, ids are meant to represent a unique element. Thus, each id is used only once to refer to one specific element. Span elements are similar to div elements in that they group the content of other elements together, but span elements can exist inline with each other or with other elements while each div element occupies its own exclusive horizontal territory.
+
+Alt text is essential for identifying elements to users in the event those elements do not load or render correctly by a web browser. Alt text is also useful for accessibility software such as screen readers by offering a readable, text explanation for non-text, visual content.
+
+My work cycle for this assignment took a different approach than previously. I intentionally built out the "skeleton" of my html page first adding the head, body, meta elements and divs first. Next I added ids and classes to the divs. Only once this basic structure was completed did I begin to add real content such as images, videos, text, etc. I found this methodical, intentional approach to be much more organized.
