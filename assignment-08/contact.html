@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="How to contact Scott Kinyon about traveling light">
+    <meta name="author" content="Scott Kinyon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me about Traveling Light</title>
+    <style>
+      body {
+        background-color: Cornsilk;
+      }
+      h1, h2 {
+        color: DarkRed;
+        text-align: center;
+      }
+      p, ul, ol {
+        color: DarkSlateGrey;
+      }
+      iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+      }
+      .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+      }
+      .banner-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+      .heading-paragraph {
+        width: 70%;
+        margin: auto;
+      }
+      .body-paragraph {
+        width: 80%;
+        margin: auto;
+      }
+      .nav {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <nav>
+        <h2>
+          <a href="./index.html">Home</a> &middot;
+          <a href="./about.html">About</a> &middot;
+          <a href="./contact.html">Contact</a>
+        </h2>
+      </nav>
+    </div>
+    <div>
+      <h1>Contact Me</h1>
+    </div>
+
+    <br />
+
+    <div>
+      <form action="./scripts/contact.php" method="post" id="contact-form">
+        <p>
+          I'd like help with:
+        <p/>
+        <label>
+          <input type="radio" name="help" value="destination" /> Knowing my destination
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="help" value="palette" /> Picking my color palette
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="help" value="minimize" /> Multiplying to minimize
+        </label>
+        <br />
+        <p>
+          Contact method(s):
+        </p>
+        <input type="checkbox" name="contact" value="phone" /> Phone
+        <br />
+        <p>Phone Number <input type="text" value="(406)"></p>
+        <input type="checkbox" name="contact" value="email" /> Email
+        <br />
+        <p>Email Address <input type="text" value="@umconnect.umt.edu"></p>
+        <br />
+        <input type="submit" name="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
