@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(222,188,152);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+Set default text for all elements to Natural, will adjust individual colors later
+*/
+
+h1,h2,h3,h4,p {
+  color: rgb(222,188,152);
+}
+
+.canvas {
+  background-color: rgb(222,188,152);
+  height: 0px;
+  width: 100%;
+  postion: absolute;
+}
+
+.rectangle {
+  height: 90px;
+  width: 900px;
+  display: block;
+}
+
+#avo {
+  background-color: rgb(183,195,39);
+  margin-right: auto;
+}
+
+#hg {
+  background-color: rgb(225,166,30);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#tk {
+  background-color: rgb(53,37,32);
+  margin-left: auto;
+}
+
+.heading {
+  background-color: rgba(148,73,42,.50);
+  text-align: center;
+  padding: 50px;
+}
+
+.photo {
+  padding: 100px;
+}
+
+#top-banner {
+  background-color: rgba(148,73,42,.15);
+}
+
+#photo-heading-1 {
+  color: rgb(183,195,39);
+}
+
+#photo-heading-2 {
+  color: rgb(225,166,30);
+}
+
+#photo-heading-3 {
+  color: rgb(53,37,32);
+}
+
+#photo-1 {
+  background-color: rgba(183,195,39,.67);
+  border: 50px solid rgba(183,195,39,.8);
+}
+
+#photo-2 {
+  background-color: rgba(225,166,30,.67);
+  border: 50px solid rgba(225,166,30,.8);
+}
+
+#photo-3 {
+  background-color: rgba(53,37,32,.7);
+  border: 50px solid rgba(53,37,32,.8);
+}
+
+#avocado {
+  border: 15px solid rgb(183,195,39);
+}
+
+#harvest-gold {
+  border: 15px solid rgb(225,166,30);
+}
+
+#teak {
+  border: 15px solid rgb(53,37,32);
+}
