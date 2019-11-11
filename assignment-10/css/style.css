@@ -1,0 +1,68 @@
+* {
+  font-size: 1.05em;
+  background-color: rgb(146,179,250);
+}
+
+h1,h2,h3,h4 {
+  color: rgb(98,28,15);
+}
+
+p {
+  color: rgb(58,55,12);
+}
+
+a:link {
+  color: rgb(64,86,133);
+}
+
+a:visited {
+  color: rgb(122,98,135);
+}
+
+a:hover {
+   font-style: italic;
+}
+
+#title {
+  font-family: 'FrederickatheGreat-Regular', serif;
+  font-size: 2em;
+  text-align: center;
+  padding: 75px;
+}
+
+#byline {
+  font-family: 'FrederickatheGreat-Regular', serif;
+  font-size: .75em;
+  text-align: center;
+}
+
+#header {
+  font-family: 'Literata-Regular', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 25px;
+}
+
+
+#paragraphs {
+  font-family: 'Literata-Regular', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  padding: 25px;
+}
+
+#paragraphs::first-letter {
+  font-family: 'FrederickatheGreat-Regular', serif;
+  font-size: 2em;
+}
+
+#paragraphs::first-line {
+  color: rgb(98,28,15);
+}
+
+#footer {
+  font-family: 'Literata-Regular', sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 25px;
+}
