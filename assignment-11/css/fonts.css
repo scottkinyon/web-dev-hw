@@ -1,0 +1,13 @@
+@font-face {
+font-family: 'talldark';
+src: url('../fonts/talldark.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Walkway-Condensed';
+src: url('../fonts/Walkway-Condensed.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}

@@ -1,0 +1,110 @@
+* {
+  font-size: 1.05 em;
+}
+
+body {
+  background-color: rgb(138,124,113);
+}
+
+h1 {
+  color: rgba(123,43,46,.67);
+  font-family: 'talldark', sans-serif;
+  font-size: 5em;
+  letter-spacing: .05em;
+  text-align: center;
+}
+
+h2 {
+  color: rgba(123,43,46,.67);
+  font-family: 'talldark', sans-serif;
+  font-size: 3em;
+  letter-spacing: .05em;
+  text-align: center;
+}
+
+p {
+  color: rgb(39,51,67);
+  font-family: 'Walkway-Condensed', serif;
+  font-size: 2em;
+  text-align: left;
+}
+
+.circle {
+   border-radius: 10em;
+   width: 10em;
+   height: 10em;
+   padding: 5em;
+   margin: auto;
+}
+
+.menu {
+  border-radius: 3em;
+  width: 10em;
+  height: 6em;
+  padding: 2em;
+}
+
+#loremCircle {
+  position: fixed;
+  top: 2em;
+  left: 2em;
+  background-color: rgba(123,43,46,.33);
+}
+
+#ipsumCircle {
+  position: fixed;
+  top: 8em;
+  left: 8em;
+  background-color: rgba(39,51,67,.33);
+}
+
+#logoCircle {
+  position: fixed;
+  top: 14em;
+  left: 14em;
+  background-color: rgba(205,111,98,.33);
+}
+
+#menu1 {
+  display: none;
+  position: fixed;
+  top: 7em;
+  left: 22em;
+  z-index: 100;
+  background-color: rgba(123,43,46,.33);
+}
+
+#menu2 {
+  display: none;
+  position: fixed;
+  top: 12em;
+  left: 28em;
+  z-index: 200;
+  background-color: rgba(39,51,67,.33);
+}
+
+#loremCircle:hover #menu1{
+  display: inline;
+}
+
+#ipsumCircle:hover #menu2{
+  display: inline;
+}
+
+#content1 {
+  display: inline-block;
+  background-color: rgba(123,43,46,.33);
+  width: 40%;
+  padding: 10%;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+#content2 {
+  display: inline-block;
+  background-color: rgba(39,51,67,.33);
+  width: 40%;
+  padding: 10%;
+  margin-left: 30%;
+  margin-top: 10%;
+}
