@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact page for my multi-page CSS website for Intro to Web Development">
+    <meta name="author" content="Scott Kinyon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact for Intro to Web Dev CSS</title>
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="contact" id="contact-header">
+      <img class="header-img" id="contact-header-img" src="./images/contact-header.jpg" />
+    </div>
+    <div class="label">
+      Contact
+    </div>
+    <div class="navbar" id="contact-navbar">
+      <div class="navbar-item first-item" id="contact-navbar-home">
+        <a class="navbar-link" href="./index.html">Home</a>
+      </div>
+      <div class="navbar-item" id="contact-navbar-about">
+        <a class="navbar-link" href="./about.html">About</a>
+      </div>
+      <div class="navbar-item" id="contact-navbar-services">
+        <a class="navbar-link" href="./services.html">Services</a>
+      </div>
+      <div class="navbar-item" id="contact-navbar-contact">
+        Contact
+      </div>
+      <div class="navbar-item dropdown" id="home-navbar-links">
+        <a class="navbar-link" href="#">Links</a>
+         <div class="dropdown-content">
+           <div class="dropdown-item">
+             <a class="navbar-link" id="sixties" href="../assignment-09/index.html">Style Guide: 1960s</a></div>
+           <div class="dropdown-item">
+             <a class="navbar-link" id="book" href="../assignment-10/index.html">Book Club: Neil Gaiman</a></div>
+           <div class="dropdown-item">
+             <a class="navbar-link" id="lorem" href="../assignment-11">Layout Guide: Lorem Ipsum</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="text-heading">
+      <h1>Contact</h1>
+    </div>
+    <div class="text-content">
+      <form action="./scripts/contact.php" method="post" id="contact-form">
+        <p>
+          We'd love to connect with you:
+        <p/>
+        <label>
+          <input type="radio" name="help" value="destination" /> Daily Content Subscription
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="help" value="palette" /> Weekly Content Subscription
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="help" value="minimize" /> Monthly Content Subscription
+        </label>
+        <br />
+        <p>
+          Contact method(s):
+        </p>
+        <input type="checkbox" name="contact" value="phone" /> Phone
+        <br />
+        <p>Phone Number <input type="text" value="(406)"></p>
+        <input type="checkbox" name="contact" value="email" /> Email
+        <br />
+        <p>Email Address <input type="text" value="@umconnect.umt.edu"></p>
+        <br />
+        <input type="submit" name="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
