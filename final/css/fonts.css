@@ -1,0 +1,20 @@
+@font-face {
+font-family: 'cordelina';
+src: url('../fonts/cordelina.otf') format('opentype');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'eurof35';
+src: url('../fonts/eurof35.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'DolceVita-Light';
+src: url('../fonts/DolceVita-Light.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}

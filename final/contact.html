@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact page for Roots + Kin Studio a multimedia creative collective">
+    <meta name="author" content="Scott Kinyon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Roots + Kin Studio</title>
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="navbar" id="contact-navbar">
+      <div class="navbar-item first-item" id="contact-navbar-contact">
+        Contact
+      </div>
+      <div class="navbar-item dropdown" id="home-navbar-links">
+        <a class="navbar-link" href="#">Explore</a>
+         <div class="dropdown-content">
+           <div class="dropdown-item">
+             <a class="navbar-link" href="./index.html">Home</a></div>
+           <div class="dropdown-item">
+             <a class="navbar-link" href="./about.html">About</a></div>
+           <div class="dropdown-item">
+             <a class="navbar-link" href="./services.html">Services</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact-header">
+      <img class="header-img" id="contact-header-img" src="./images/contact-header.jpg" />
+    </div>
+    <div class="label">
+      <h1 class="roots" id="home-roots">ROOTS + KIN</h1>
+      <h1 class="studio" id="home-studio">STUDIO</h1>
+    </div>
+    <div class="text-heading">
+      <h1>Contact</h1>
+    </div>
+    <div class="text-content">
+      <form action="./scripts/contact.php" method="post" id="contact-form">
+        <p>
+          We'd love to <strong>connect</strong> with you and give more information about:
+        <p/>
+        <label>
+          <input type="radio" name="help" value="branding" /> <strong>Branding</strong> services
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="help" value="content" /> <strong>Content</strong> services
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="help" value="consulting" /> <strong>Consulting</strong> services
+        </label>
+        <br />
+        <p>
+          Contact method(s):
+        </p>
+        <input type="checkbox" name="contact" value="phone" /> Phone
+        <br />
+        <p>Phone Number <input type="text" value="(406)"></p>
+        <input type="checkbox" name="contact" value="email" /> Email
+        <br />
+        <p>Email Address <input type="text" value="@umconnect.umt.edu"></p>
+        <br />
+        <input type="submit" name="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
